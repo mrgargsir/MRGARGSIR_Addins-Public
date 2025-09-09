@@ -1,16 +1,22 @@
 {
   "version": "1.0.0",
-  "release_date": "2025-09-09",
-  "download_url": "https://github.com/mrgargsir/MRGARGSIR_Addins-Public/releases/download/v1.0.0/MRGARGSIR_Addins-v1.0.0-Setup.msi",
+  "release_date": "2025-09-09T00:00:00Z",
+  "download_url": "https://github.com/mrgargsir/MRGARGSIR_Addins-Public/releases/download/v1.0.0/MRGARGSIR-Addins-v1.0.0-Setup.msi",
   "minimum_required_version": "1.0.0",
   "changelog_url": "https://github.com/mrgargsir/MRGARGSIR_Addins-Public/blob/main/releases/release-notes/v1.0.0.md",
   "file_size": "15.2 MB",
-  "file_hash": "sha256:abc123...",
+  "file_hash": "sha256:pending-after-build",
   "critical_update": false,
   "force_update": false,
   "compatibility": {
     "excel_versions": ["2016", "2019", "2021", "365"],
     "windows_versions": ["10", "11"],
     "dotnet_version": "4.8"
-  }
+  },
+  "features_new": [
+    "Initial release with VBA to C# conversion",
+    "Secure license verification system",
+    "Python automation integration",
+    "Custom Excel templates support"
+  ]
 }
