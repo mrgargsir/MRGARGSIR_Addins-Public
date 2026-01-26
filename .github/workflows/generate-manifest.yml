@@ -1,0 +1,140 @@
+name: Auto-Generate Template & Drawing Manifests
+
+on:
+  push:
+    paths:
+      - 'MyTemplates/files/**'
+      - 'MyDrawings/files/**'
+  workflow_dispatch: # 👉 Manual trigger option
+
+jobs:
+  generate-manifests:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      # 👉 Generate Template Manifest
+      - name: Generate Template Manifest
+        run: |
+          python3 << 'EOF'
+          import os
+          import json
+          
+          # Configuration
+          FILES_DIR = "MyTemplates/files"
+          MANIFEST_PATH = "MyTemplates/manifest.json"
+          
+          templates = []
+          
+          # Walk through all files and subdirectories
+          for root, dirs, files in os.walk(FILES_DIR):
+              for file in files:
+                  # Only process .xlsx files
+                  if file.endswith('.xlsx'):
+                      # Get relative path from FILES_DIR
+                      full_path = os.path.join(root, file)
+                      relative_path = os.path.relpath(full_path, FILES_DIR)
+                      
+                      # Get folder name as category (or "Basic Templates" if in root)
+                      folder_parts = relative_path.split(os.sep)
+                      if len(folder_parts) > 1:
+                          category = folder_parts[0]  # First folder name
+                      else:
+                          category = "Basic Templates"
+                      
+                      # Extract name (without .xlsx extension)
+                      name = os.path.splitext(file)[0]
+                      
+                      # Create template entry
+                      templates.append({
+                          "Name": name,
+                          "Category": category,
+                          "FileName": relative_path.replace(os.sep, '/')  # Use forward slashes for URLs
+                      })
+          
+          # Sort by Category, then by Name
+          templates.sort(key=lambda x: (x['Category'], x['Name']))
+          
+          # Write to manifest.json with pretty formatting
+          with open(MANIFEST_PATH, 'w', encoding='utf-8') as f:
+              json.dump(templates, f, indent=2, ensure_ascii=False)
+          
+          print(f"✅ Generated {len(templates)} templates in manifest.json")
+          for t in templates:
+              print(f"  - {t['Category']}: {t['Name']}")
+          
+          EOF
+      
+      # 👉 Generate Drawing Manifest
+      - name: Generate Drawing Manifest
+        run: |
+          python3 << 'EOF'
+          import os
+          import json
+          
+          # Configuration
+          FILES_DIR = "MyDrawings/files"
+          MANIFEST_PATH = "MyDrawings/Dmanifest.json"
+          
+          drawings = []
+          
+          # Walk through all files and subdirectories
+          for root, dirs, files in os.walk(FILES_DIR):
+              for file in files:
+                  # Only process .pdf files
+                  if file.endswith('.pdf'):
+                      # Get relative path from FILES_DIR
+                      full_path = os.path.join(root, file)
+                      relative_path = os.path.relpath(full_path, FILES_DIR)
+                      
+                      # Get folder name as category (or "General" if in root)
+                      folder_parts = relative_path.split(os.sep)
+                      if len(folder_parts) > 1:
+                          category = folder_parts[0]  # First folder name
+                      else:
+                          category = "General"
+                      
+                      # Extract name (without .pdf extension)
+                      name = os.path.splitext(file)[0]
+                      
+                      # Create drawing entry
+                      drawings.append({
+                          "Name": name,
+                          "Category": category,
+                          "FileName": relative_path.replace(os.sep, '/')  # Use forward slashes for URLs
+                      })
+          
+          # Sort by Category, then by Name
+          drawings.sort(key=lambda x: (x['Category'], x['Name']))
+          
+          # Write to Dmanifest.json with pretty formatting
+          with open(MANIFEST_PATH, 'w', encoding='utf-8') as f:
+              json.dump(drawings, f, indent=2, ensure_ascii=False)
+          
+          print(f"✅ Generated {len(drawings)} drawings in Dmanifest.json")
+          for d in drawings:
+              print(f"  - {d['Category']}: {d['Name']}")
+          
+          EOF
+      
+      # 👉 Commit and push changes
+      - name: Commit manifest changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          
+          # Add manifest files
+          git add MyTemplates/manifest.json MyDrawings/Dmanifest.json
+          
+          # Check if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🤖 Auto-update manifests from file changes"
+            git push
+            echo "✅ Manifests updated and pushed"
+          fi
