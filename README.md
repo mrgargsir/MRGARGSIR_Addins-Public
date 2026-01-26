@@ -4,10 +4,12 @@
 <div align="center">
 
 [![Website](https://img.shields.io/badge/Website-Visit-blue?style=for-the-badge)](https://mrgargsir.github.io/HEWP-Excel-Addins/)
+[![Documents](https://img.shields.io/badge/Documents-Open-orange?style=for-the-badge)](#-documents)
 [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/@HEWPTools)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-Contact-green?style=for-the-badge&logo=whatsapp)](https://wa.me/919728532828)
 
-**Speed up Estimate Preparation by 90%** with built-in Templates, real-time HSR search, intelligent copy-paste to templates, one-click uploader, and free Chrome/Edge extension – designed for both Contractors and Employees.
+**Speed up Estimate Preparation by 90%** with built-in templates, automation, and portal-compatible workflows.  
+Designed for **Engineers, Contractors and Department Employees**.
 
 </div>
 
@@ -24,105 +26,69 @@ Estimation & Billing Tool is a comprehensive automation Excel toolkit designed s
 
 ## 📋 Tools will help you in many ways but Major Points are:
 
-1. **📊 Preparation of Estimates/Bills** - Create professional Estimates/Bills with HSR 2023 rates and latest amendments
+1. **📊 Preparation of Estimates/Bills** - Create new professional Estimates/Bills or Import Pdf Estimates from Portal to Excel with HSR 2023 rates and latest amendments.
 2. **🧱 Preparation of Material Consumption** - Generate accurate material quantity tables with District wise Material Rates instantly
 3. **🔄 Do the Variation with Portal Data** - Compare and highlight differences between your data and HEWP portal data
 4. **📤 Upload Estimate/Bill to HEWP Portal** - One-click upload to HEWP portal with auto-login
+---
 
-**For complete tutorials on all features and methods, watch our full playlist:**  
-🎥 [**Complete Tutorial Playlist on @HEWPTools**](https://www.youtube.com/watch?v=AUGClE_q9IY&list=PLCbMlKNK4S80cjerEh8_Fy19SYs13wGXq&index=1)
+## 👷 Who Can Use This Tool
+
+- Civil Engineers  
+- Contractors  
+- Estimation & Billing Professionals  
+- Department Employees  
 
 ---
 
-## ⭐ Key Features at a Glance
 
-### What You Get:
-- ✅ **90% Time Saved** on estimation and billing tasks
-- ✅ **0% Alignment Errors** with intelligent data arrangement
-- ✅ **30+ Professional Tools** in one comprehensive package
-- ✅ **3-in-1 Solution:** Offline Excel + Online Web + Chrome Tools (Portal Error Fixer)
-- ✅ **HSR 2023** with latest amendments fully integrated
-- ✅ **Available for both Contractor & Employee** logins
-- ✅ **One-click installer** with zero technical skills required
-- ✅ **Free Chrome/Edge Extension** included (No Extra Charges)
+## 🚀 Download
+
+**📦 Download from Official Website:** [https://mrgargsir.github.io/HEWP-Excel-Addins/](https://mrgargsir.github.io/HEWP-Excel-Addins/)
 
 ---
 
-#### ✅ Core Features (in Excel Ribbon):
-
-### **📊 Professional Templates**
-- Estimate & Measurement Book templates ready with HSR 2023 structure and latest amendments
-- Preloaded MB Templates with HSR Rate fetcher
-- Material Quantity Finder with accurate calculations
-  
-### 🔍 Real-time HSR Search
-- Search by HSR item number and auto-fetch Unit, Rate, Rate Type and Description
-- HSR 2023 with latest amendments fully integrated
-
-### 🤖 Auto Upload & Auto Login
-- Upload templates or input data directly to HEWP portal
-- Saved credentials & one-click login flows
-- Auto-uploader to HEWP and downloader from HEWP
-
-* **🧱 Auto Material Quantity Generator** - Instantly Get Consumption Details Table.
-* **📌 Smart Copy-Paste** – Automatically copy Excel data into the correct template.
-
-### 🌐 Portal Integration
-- Download prefilled bill data from HEWP Portal
-- Create comparison summary with your Excel Bill (BOQ) instantly
-
-* **❌ Empty Bill on Portal** - If you need to remove Bill data, Remove with it, it will automatically Remove all items data for a tender.
-* **🧠 Intelligent Data Arrangement** – Minimizes user input errors, ensuring **0% chance of misalignment**.
-* **👍 Special Log Window For Excel Error to fix** - Your Data will be With 0% Error.
----
 
 
-## 🚀 Official Website & Download
 
-**📦 Official Website:** [https://mrgargsir.github.io/HEWP-Excel-Addins/](https://mrgargsir.github.io/HEWP-Excel-Addins/)
+### 🌐 Estimate Preparation Features (First Tab: **`Auto E. TOOLS`**)
 
-**🎥 YouTube Channel:** [https://www.youtube.com/@HEWPTools](https://www.youtube.com/@HEWPTools)
+![E. Tools](https://raw.githubusercontent.com/mrgargsir/HEWP-Excel-Addins/main/snaps/etools.png)
 
-**📞 Support:** WhatsApp: +91 97285 32828 | Email: help@mrgargsir.store
-
-
-### 🌐 Estimate Preparation Features (First Tab: **`E. TOOLS`**)
-
-1. **Jump to any Sheet** – Quickly navigate between All worksheets in a workbook with many sheets. So Useful When you have lots of worksheets. 
-2. **Refresh Sheet** – Instantly refresh the Excel in case Excel becomes unresponsive sometimes.
-3. **Insert Row** – Insert any number of Entire rows at the selected cell with ease.
-4. **Copy Current Worksheet** – Create duplicates of the active worksheet next to the Original Worksheet and Auto Select the Duplicate sheet quickly.
-5. **Feet ⇄ Meter Converter** – Convert  imperial to metric unit in all Selected Cells with one click.
-6. **Meter ⇄ Feet Converter** – Convert  metric to imperial unit in all selected cells with one click.
-7. **Meter ⇄ Kg Converter** – Convert  Meter to Kilogram unit for all selected cells with One click. It's for Manual Comparison if you want sometimes.
-8. **Toggle Sign** – Instantly switch selected values between positive and negative. Useable When You want Deduction Data.
-9. **Formulas To Constant** – Convert formulas to static values in all selected cells.
-10. **Multiply and Get Quantity** – Multiply dimensions (Nos. x length × breadth × depth) with advance formula.
-11. **Total Quantity with intelligent Unit Converter** – It will do auto Total of One item number's quantities and put in row below, then auto convert to metric units where required and put in row below of total. Also, auto convert to steel kg if required.
-12. **Auto Rate & Description Fetcher** – Automatically pull Unit, Rates, Rate Type, and Descriptions from Latest HSR 2023 (Haryana Schedule of Rates) and Amendments and insert for Each item.
-13. **Amount Calculator** – Compute amounts by multiplying rate × quantity. Also auto-calculates GST, contingency, and grand total with full sheet formatting. Apply the SR number to each item. Prepare Bill or Estimate in Good Format.
-14. **Steel Weight Calculator** – Manually Convert running meters Rebar Length to kilograms based on entered diameter and put this value below of selected total row cell.
-15. **Auto Round Off** – Dynamically apply round-off formula to each selected cell. Existing Round off auto-update on apply.
-16. **Steel Summary Generator** – Create a Dia Wise Steel Consumption summary in Kg. at the bottom of the Bill/Estimate.
-17. **Abstract Bill Summary** - Generate a complete abstract Bill or estimate summary in a new worksheet, next to the active sheet.
-18. **Bill Summary** – Generate a detailed summary in a new worksheet and if a portal-downloaded summary is opened, it will auto fetch, compare and highlight differences. It also works for Variation with DNIT QTY.
-19. **Quantity of Materials Summary** – Generate a complete Material Consumption Summary at the bottom of the Bill/Estimate. A Detailed Material Quantity Table.
-20. **Bill Compare** - Generate a comparison of Portal Bill Data with your Excel Bill and get to know final verdict of comparison.
-21. **Bill Variation** - Generate a Variation of Portal Bill Data and Previously Executed Qty if any, with your Excel Bill or Final Bill and get status of data. also it will be used to upload Variation on HEW Portal via Web Tools.
+1. **Multiply and Get Quantity** – Multiply dimensions (Nos. x length × breadth × depth) with advance formula.
+2. **Total Quantity with intelligent Unit Converter** – It will do auto Total of One item number's quantities and put in row below, then auto convert to metric units where required and put in row below of total. Also, auto convert to steel kg if required.
+3. **Auto Rate & Description Fetcher** – Automatically pull Unit, Rates, Rate Type, and Descriptions from Latest HSR 2023 (Haryana Schedule of Rates) and Amendments and insert for Each item.
+4. **Amount Calculator** – Compute amounts by multiplying rate × quantity. Also auto-calculates GST, contingency, and grand total with full sheet formatting. Apply the SR number to each item. Prepare Bill or Estimate in Good Format.
+5. **Steel Summary Generator** – Create a Dia Wise Steel Consumption summary in Kg. at the bottom of the Bill/Estimate.
+6. **Abstract Bill Summary** - Generate a complete abstract Bill or estimate summary in a new worksheet, next to the active sheet.
+7. **Quantity of Materials Summary** – Generate a complete Material Consumption Summary at the bottom of the Bill/Estimate. A Detailed Material Quantity Table.
+8. **Bill Compare** - Generate a comparison of Portal Bill Data with your Excel Bill and get to know final verdict of comparison.
+9. **Bill Variation** - Generate a Variation of Portal Bill Data and Previously Executed Qty if any, with your Excel Bill or Final Bill and get status of data. also it will be used to upload Variation on HEW Portal via Web Tools.
 
 ---
+
+
 ### 📑 Template Management (Second Tab: **`Template`**)
 
-- **Web Templates** – Access pre-built templates
+![Templates](https://raw.githubusercontent.com/mrgargsir/HEWP-Excel-Addins/main/snaps/templates.png)
+
+- **Blank Format** – Generate Blank Format for manual entry.
+- **Import Estimates** – Import Downloaded Detailed Estimates Pdf to Excel.
+- **Server Templates** – Access pre-built templates
 - **My Templates** – Manage your custom templates
 - **Add Template** – Create new templates
 - **Edit Template** – Modify existing templates
 - **Delete Templates** – Remove unwanted templates
+- **Refresh Server Template** - Fetch latest Template from server. You won't need it because it will be done Auto while you start Excel.
 
 ---
-### 🌐 Web Automation Features (Third Tab: **`WebAuto`**)
 
-**📤 One-Click Uploader** – Interact directly with the HEWP Portal from Excel.
+### 🌐 Web Automation Features (Third Tab: **`HEWP WebAuto`**)
+
+![HEWP Web Auto](https://raw.githubusercontent.com/mrgargsir/HEWP-Excel-Addins/main/snaps/webtools.png)
+![HEWP Web Manual](https://raw.githubusercontent.com/mrgargsir/HEWP-Excel-Addins/main/snaps/webtoolsm.png)
+
+**📤 With One-Click ease** 
 
 1. **Auto Login to HEWP Portal** – Securely log in with saved credentials and Keep Login details for future fast login. Login data is completely saved in your hard drive Excel file. You can verify it anytime.
 2. **Close Chrome & Clean Resources** – Closes browser sessions and frees memory.
@@ -134,15 +100,71 @@ Estimation & Billing Tool is a comprehensive automation Excel toolkit designed s
 8. **Emp Item Number Selector** – Select item numbers and Rate Type for Employee ID on HEWP Portal for filling and uploading estimates and variations.
 9. **Website Data Scraper** – Download completed bill data from the HEWP portal in Excel Format from contractor ID, including a summary sheet.
 10. **Delete Bill Data** – Remove all previously filled bill data items in one click on the HEWP portal in Contractor Login.
-11. **Auto Upload Full Bill/Template** – Automatically upload The Whole Bill for all Users at one click in the HEWP Portal.
-12. **Auto Upload Variation** - Automatically upload Full Variation (Add item, add Quantity, Remove item, remove quantity) to HEW Portal.
+11. **Download Detailed Estimate** – Download Detailed Estimate Pdf in two clicks from the HEWP portal in Employee Login.
+12. **Auto Upload Full Bill/Template** – Automatically upload The Whole Bill for all Users at one click in the HEWP Portal.
+13. **Auto Upload Variation** - Automatically upload Full Variation (Add item, add Quantity, Remove item, remove quantity) to HEW Portal.
+
 ---
 
-#### 🚀 Additional Highlights:
 
-* **Available for both Contractor & Employee**
-* **One-click installer**
-* **Simple setup with zero technical skills required**
+### 🌐 Estimate Preparation Features (4th Tab: **`Extra TOOLS`**)
+
+![Extra Tools](https://raw.githubusercontent.com/mrgargsir/HEWP-Excel-Addins/main/snaps/extra.png)
+
+1. **Jump to any Sheet** – Quickly navigate between All worksheets in a workbook with many sheets. So Useful When you have lots of worksheets. 
+2. **Refresh Sheet** – Instantly refresh the Excel in case Excel becomes unresponsive sometimes.
+3. **Feet ⇄ Meter Converter** – Convert  imperial to metric unit in all Selected Cells with one click.
+4. **Meter ⇄ Feet Converter** – Convert  metric to imperial unit in all selected cells with one click.
+5. **Meter ⇄ Kg Converter** – Convert  Meter to Kilogram unit for all selected cells with One click. It's for Manual Comparison if you want sometimes.
+6. **Toggle Sign** – Instantly switch selected values between positive and negative. Useable When You want Deduction Data.
+7. **Formulas To Constant** – Convert formulas to static values in all selected cells.
+8. **Insert Row** – Insert any number of Entire rows at the selected cell with ease.
+9. **Copy Current Worksheet** – Create duplicates of the active worksheet next to the Original Worksheet and Auto Select the Duplicate sheet quickly.
+10. **Steel Weight Calculator** – Manually Convert running meters Rebar Length to kilograms based on entered diameter and put this value below of selected total row cell.
+11. **Auto Round Off** – Dynamically apply round-off formula to each selected cell. Existing Round off auto-update on apply.
+12. **HSR 2023/2021** - Open HSR 2023 and 2021 PDF in your system.
+13. **Unit Adjust** - Set and Convert whole bill/Estimate's unit system.
+
+---
+
+
+### 🌐 Technical Features (5th Tab: **`Tool Help`**)
+
+![Tool Help](https://raw.githubusercontent.com/mrgargsir/HEWP-Excel-Addins/main/snaps/help.png)
+
+1. **Feedback** – Quickly Provide feedback, suggestion, bug reports, feature requests, enquiry, all in one under single function.
+2. **Check for Updates** - Check for installer updates from this.
+3. **Request** - Ask for new features.
+4. **Install RustDesk** - for Remote Support, install open source Rust Desk.
+5. **Join WhatsApp Group** - Join MRGARGSIR Tools community for all official updates in WhatsApp.
+6. **YouTube Videos** - Watch Tutorial Videos on Official YouTube Channel [@HEWPTools](https://www.youtube.com/@HEWPTools)
+7. **Get License** - Raise a request to get a License.
+8. **Share Referral Code** - Share this tool with your friends and co workers and get Benefits .
+9. **Update Material Rate/Gst** - Update Material Rates and Gst from your Consumption table.
+10. **Material Rate Editor** - Update Material Rates from all Material Table.
+
+---
+
+
+### 🌐 Setup Features (6th Tab: **`Tool Setting`**)
+
+![Tool Setting](https://raw.githubusercontent.com/mrgargsir/HEWP-Excel-Addins/main/snaps/settings.png)
+
+1. **Unit System** – Set Your unit system, you are working in (Imperial or metric).
+2. **Browser** - Choose your browser for Web Automation (Chrome or Microsoft Edge).
+3. **Details** - See your Filed Detail as Name, District, Mobile Number.
+4. **Reset Templates** - If Web Auto uploading Templates have any error then reset them with one click. but it will never happened.
+5. **Reset Rates** - Reset Rates if you have done something wrong.
+6. **Activate Licence** - New users can activate there licence from this.
+7. **License info** - Check your a active Licence Info.
+8. **Reverify Licence** - if licence do not sync with server Auto then use this feature to sync in real time.
+9. **Change Licence Key** - Use this to Change your Licence Key.
+10. **Uninstaller** - Delete Licence and Disable Tool from Excel.
+11. **Tool Information** - Check Tool Info like Internal installed Version, Installer installed version, Tool name, visit website.
+
+---
+   
+* **👍 Special Log Window For Excel Error to fix** - Your Data will be With 0% Error.
 ---
 
 
@@ -192,13 +214,13 @@ Estimation & Billing Tool is a comprehensive automation Excel toolkit designed s
 
 ### ✅ INSTALLATION STEPS:
 1. 📂 Extract all files to a folder (if downloaded as zip)
-2. 🖱️ Double-click `Installer.exe`
+2. 🖱️ Double-click ` Online Installer.exe`
 3. ⚠️ If Windows shows security warning, click **"More info"** → **"Run anyway"**
-4. ➡️ Click **Next** → **Next** → **Install**
+4. ➡️ Click **Next** → **Next** → **Auto Download** → **Next** → **Next** → **Install**
 5. ⏳ Wait for completion (1-2 minutes)
 6. 📊 Open Microsoft Excel after installation
-7. 🔑 Insert your unique activation key
-8. ✅ Activate the software
+7. 🔑 Insert your unique activation key if ask
+8. ✅ Activate the software if ask
 9. 🔄 Restart Excel to complete setup
 
 ### 🔑 YOUR INSTALL KEY:
@@ -212,14 +234,20 @@ Complete step-by-step video tutorials available on our YouTube channel:
 
 ### 📺 Tutorial Series:
 
-1. **[Complete Installation Walkthrough @HEWPTools](https://www.youtube.com/@HEWPTools)** – Full installation guide (5 min)
-2. **E. Tools Tab Features Part 1** – Auto Multiply, Sum, HSR Rate, Amount Calculator
-3. **E. Tools Tab Features Part 2** – Insert Row, Copy Sheet, Round Off, Metric Units
-4. **E. Tools Tab Features Part 3** – Steel Functions, Custom Functions, Steel Summary
-5. **Web Tools Tab Features** – Portal integration and complete automation guide
+**[Complete Installation Walkthrough @HEWPTools](https://www.youtube.com/@HEWPTools)** – Full installation guide (5 min)
+
 
 🎬 **[Watch Full Playlist Here @HEWPTools](https://www.youtube.com/watch?v=AUGClE_q9IY&list=PLCbMlKNK4S80cjerEh8_Fy19SYs13wGXq&index=1)**
 
+## 📄 Documents
+
+- [Latest Intro](https://raw.githubusercontent.com/mrgargsir/HEWP-Excel-Addins/main/docs/doc5.pdf)
+- [2. Intro](https://raw.githubusercontent.com/mrgargsir/HEWP-Excel-Addins/main/docs/README.md)
+- [3. Intro](https://raw.githubusercontent.com/mrgargsir/HEWP-Excel-Addins/main/docs/doc6.pdf)
+- [4. Intro](https://raw.githubusercontent.com/mrgargsir/HEWP-Excel-Addins/main/docs/doc7.pdf)
+- [5. Intro](https://raw.githubusercontent.com/mrgargsir/HEWP-Excel-Addins/main/docs/doc8.pdf)
+- [6. Intro](https://raw.githubusercontent.com/mrgargsir/HEWP-Excel-Addins/main/docs/doc9.pdf)
+- 
 ---
 
 ## 📞 Contact & Support
@@ -229,11 +257,13 @@ Complete step-by-step video tutorials available on our YouTube channel:
 - 📧 **Email:** help@mrgargsir.store
 - 📱 **WhatsApp:** +91 97285 32828
 - 🌐 **Website:** [https://mrgargsir.github.io/HEWP-Excel-Addins/](https://mrgargsir.github.io/HEWP-Excel-Addins/)
+ 
 [https://mrgargsir.store](https://mrgargsir.store)
+
 
 ### 🌍 Social Media & Community:
 
-- 📘 **Facebook:** [https://facebook.com/HEWPTools](https://facebook.com/HEWPTools)
+- 📘 **Facebook:** [https://facebook.com/HEWPTool](https://facebook.com/HEWPTool)
 - 📸 **Instagram:** [https://instagram.com/HEWPTools](https://instagram.com/HEWPTools)
 - 🐦 **X (Twitter):** [https://x.com/HEWPTools](https://x.com/HEWPTools)
 - 💬 **WhatsApp Group:** [Join Community](https://chat.whatsapp.com/DEXKInfvpBd9cLwyaoq0sd)
