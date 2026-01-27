@@ -1,18 +1,8 @@
 [
   {
-    "Name": "Brick Rasta Template",
-    "Category": "Basic Templates",
-    "FileName": "Brick Rasta Template.xlsx"
-  },
-  {
     "Name": "Building Template",
     "Category": "Basic Templates",
     "FileName": "Building Template.xlsx"
-  },
-  {
-    "Name": "CATTLE GHAT Template",
-    "Category": "Basic Templates",
-    "FileName": "CATTLE GHAT Template.xlsx"
   },
   {
     "Name": "IPB Street Template",
@@ -20,13 +10,43 @@
     "FileName": "IPB Street Template.xlsx"
   },
   {
-    "Name": "Iron shed 4 Lakh Template",
-    "Category": "Basic Templates",
-    "FileName": "Iron shed 4 Lakh Template.xlsx"
+    "Name": "Brick Rasta (2) Estimate",
+    "Category": "Galli",
+    "FileName": "Galli/Brick Rasta (2) Estimate.xlsx"
   },
   {
-    "Name": "R WALL 10.5HT Template",
-    "Category": "Basic Templates",
-    "FileName": "R WALL 10.5HT Template.xlsx"
+    "Name": "Cow Ghat 50_x60_ (6.08Lac)",
+    "Category": "Ghat",
+    "FileName": "Ghat/Cow Ghat 50_x60_ (6.08Lac).xlsx"
+  },
+  {
+    "Name": "Cow Ghat 75_x100_ (12.55Lac)",
+    "Category": "Ghat",
+    "FileName": "Ghat/Cow Ghat 75_x100_ (12.55Lac).xlsx"
+  },
+  {
+    "Name": "Ghat 35_x70_ (5.42Lac)",
+    "Category": "Ghat",
+    "FileName": "Ghat/Ghat 35_x70_ (5.42Lac).xlsx"
+  },
+  {
+    "Name": "Ghat 55_x90_ (9.24Lac)",
+    "Category": "Ghat",
+    "FileName": "Ghat/Ghat 55_x90_ (9.24Lac).xlsx"
+  },
+  {
+    "Name": "Retaining wall 10.5_ hight (Rs. 5879 per rft)",
+    "Category": "Retaining wall",
+    "FileName": "Retaining wall/Retaining wall 10.5_ hight (Rs. 5879 per rft).xlsx"
+  },
+  {
+    "Name": "Retaining wall 8.0_ hight (Rs. 5578 per rft)",
+    "Category": "Retaining wall",
+    "FileName": "Retaining wall/Retaining wall 8.0_ hight (Rs. 5578 per rft).xlsx"
+  },
+  {
+    "Name": "Iron shed 40_x50_ (5.28Lac)",
+    "Category": "shed",
+    "FileName": "shed/Iron shed 40_x50_ (5.28Lac).xlsx"
   }
 ]
