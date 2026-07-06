@@ -1,10 +1,11 @@
-name: Auto-Generate Template & Drawing Manifests
+name: Auto-Generate Template & Drawing & ColorScheme Manifests
 
 on:
   push:
     paths:
       - 'MyTemplates/files/**'
       - 'MyDrawings/files/**'
+      - 'MyColorScheme/files/**'
   workflow_dispatch: # 👉 Manual trigger option
 
 jobs:
@@ -121,6 +122,58 @@ jobs:
           
           EOF
       
+      # 👉 Generate ColorScheme Manifest
+      - name: Generate ColorScheme Manifest
+        run: |
+          python3 << 'EOF'
+          import os
+          import json
+          
+          # Configuration
+          FILES_DIR = "MyColorScheme/files"
+          MANIFEST_PATH = "MyColorScheme/Cmanifest.json"
+          
+          colorschemes = []
+          
+          # Walk through all files and subdirectories
+          for root, dirs, files in os.walk(FILES_DIR):
+              for file in files:
+                  # Only process .pdf files
+                  if file.endswith('.pdf'):
+                      # Get relative path from FILES_DIR
+                      full_path = os.path.join(root, file)
+                      relative_path = os.path.relpath(full_path, FILES_DIR)
+                      
+                      # Get folder name as category (or "General" if in root)
+                      folder_parts = relative_path.split(os.sep)
+                      if len(folder_parts) > 1:
+                          category = folder_parts[0]  # First folder name
+                      else:
+                          category = "General"
+                      
+                      # Extract name (without .pdf extension)
+                      name = os.path.splitext(file)[0]
+                      
+                      # Create colorscheme entry
+                      colorschemes.append({
+                          "Name": name,
+                          "Category": category,
+                          "FileName": relative_path.replace(os.sep, '/')  # Use forward slashes for URLs
+                      })
+          
+          # Sort by Category, then by Name
+          colorschemes.sort(key=lambda x: (x['Category'], x['Name']))
+          
+          # Write to Cmanifest.json with pretty formatting
+          with open(MANIFEST_PATH, 'w', encoding='utf-8') as f:
+              json.dump(colorschemes, f, indent=2, ensure_ascii=False)
+          
+          print(f"✅ Generated {len(colorschemes)} colorschemes in Cmanifest.json")
+          for c in colorschemes:
+              print(f"  - {c['Category']}: {c['Name']}")
+          
+          EOF
+      
       # 👉 Commit and push changes
       - name: Commit manifest changes
         run: |
@@ -128,7 +181,7 @@ jobs:
           git config user.email "actions@github.com"
           
           # Add manifest files
-          git add MyTemplates/manifest.json MyDrawings/Dmanifest.json
+          git add MyTemplates/manifest.json MyDrawings/Dmanifest.json MyColorScheme/Cmanifest.json
           
           # Check if there are changes
           if git diff --staged --quiet; then
