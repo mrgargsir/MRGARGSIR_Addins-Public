@@ -1,5 +1,45 @@
 [
   {
+    "Name": "FOUNDATION-1",
+    "Category": "60x39 size",
+    "FileName": "60x39 size/FOUNDATION-1.pdf"
+  },
+  {
+    "Name": "FOUNDATION-2",
+    "Category": "60x39 size",
+    "FileName": "60x39 size/FOUNDATION-2.pdf"
+  },
+  {
+    "Name": "FOUNDATION-3",
+    "Category": "60x39 size",
+    "FileName": "60x39 size/FOUNDATION-3.pdf"
+  },
+  {
+    "Name": "GROUND FLOOR DOOR BEAM DETAIL",
+    "Category": "60x39 size",
+    "FileName": "60x39 size/GROUND FLOOR DOOR BEAM DETAIL.pdf"
+  },
+  {
+    "Name": "GROUND FLOOR DOOR BEAM PLAN",
+    "Category": "60x39 size",
+    "FileName": "60x39 size/GROUND FLOOR DOOR BEAM PLAN.pdf"
+  },
+  {
+    "Name": "GROUND FLOOR PLAN",
+    "Category": "60x39 size",
+    "FileName": "60x39 size/GROUND FLOOR PLAN.pdf"
+  },
+  {
+    "Name": "GROUND FLOOR SLAB BEAM DETAIL",
+    "Category": "60x39 size",
+    "FileName": "60x39 size/GROUND FLOOR SLAB BEAM DETAIL.pdf"
+  },
+  {
+    "Name": "GROUND FLOOR SLAB PLAN",
+    "Category": "60x39 size",
+    "FileName": "60x39 size/GROUND FLOOR SLAB PLAN.pdf"
+  },
+  {
     "Name": "Anganwari centre",
     "Category": "Anganwari center",
     "FileName": "Anganwari center/Anganwari centre.pdf"
@@ -10,6 +50,16 @@
     "FileName": "Anganwari center/Anganwari centre door window.pdf"
   },
   {
+    "Name": "GVD Drawing",
+    "Category": "GVD",
+    "FileName": "GVD/GVD Drawing.pdf"
+  },
+  {
+    "Name": "GAZIBO DRG",
+    "Category": "Gazibo",
+    "FileName": "Gazibo/GAZIBO DRG.pdf"
+  },
+  {
     "Name": "Introduction (English)",
     "Category": "General",
     "FileName": "Introduction (English).pdf"
@@ -18,5 +68,210 @@
     "Name": "Introduction (Hindi)",
     "Category": "General",
     "FileName": "Introduction (Hindi).pdf"
+  },
+  {
+    "Name": "COLUMN PLACEMENT",
+    "Category": "Hall 60 by 40",
+    "FileName": "Hall 60 by 40/COLUMN PLACEMENT.pdf"
+  },
+  {
+    "Name": "DOOR BEAM",
+    "Category": "Hall 60 by 40",
+    "FileName": "Hall 60 by 40/DOOR BEAM.pdf"
+  },
+  {
+    "Name": "FOUNDATION DETAIL",
+    "Category": "Hall 60 by 40",
+    "FileName": "Hall 60 by 40/FOUNDATION DETAIL.pdf"
+  },
+  {
+    "Name": "FOUNDATION PLANNING",
+    "Category": "Hall 60 by 40",
+    "FileName": "Hall 60 by 40/FOUNDATION PLANNING.pdf"
+  },
+  {
+    "Name": "GROUND FLOOR BEAM DETAIL",
+    "Category": "Hall 60 by 40",
+    "FileName": "Hall 60 by 40/GROUND FLOOR BEAM DETAIL.pdf"
+  },
+  {
+    "Name": "GROUND FLOOR SLAB DETAIL",
+    "Category": "Hall 60 by 40",
+    "FileName": "Hall 60 by 40/GROUND FLOOR SLAB DETAIL.pdf"
+  },
+  {
+    "Name": "Ambedkar Bhawan 60 30",
+    "Category": "Hall 60x30 size",
+    "FileName": "Hall 60x30 size/Ambedkar Bhawan 60 30.pdf"
+  },
+  {
+    "Name": "12 ton final",
+    "Category": "SHC",
+    "FileName": "SHC/strctural drawings/12 ton final.pdf"
+  },
+  {
+    "Name": "9 ton",
+    "Category": "SHC",
+    "FileName": "SHC/strctural drawings/9 ton.pdf"
+  },
+  {
+    "Name": "Beam layout",
+    "Category": "SHC",
+    "FileName": "SHC/strctural drawing in feet/Beam layout.pdf"
+  },
+  {
+    "Name": "DoorWindow Detail",
+    "Category": "SHC",
+    "FileName": "SHC/strctural drawing in feet/DoorWindow Detail.pdf"
+  },
+  {
+    "Name": "FOUNDATION LAYOUT PLAN",
+    "Category": "SHC",
+    "FileName": "SHC/strctural drawing in feet/FOUNDATION LAYOUT PLAN.pdf"
+  },
+  {
+    "Name": "Final 7ton",
+    "Category": "SHC",
+    "FileName": "SHC/strctural drawings/Final 7ton.pdf"
+  },
+  {
+    "Name": "G.F., ELEVATION AND SECTION.",
+    "Category": "SHC",
+    "FileName": "SHC/Layout and joinery/G.F., ELEVATION AND SECTION..pdf"
+  },
+  {
+    "Name": "HEALTH WELLNESS CENTRE TALHERI RANGRAN",
+    "Category": "SHC",
+    "FileName": "SHC/strctural drawings/HEALTH WELLNESS CENTRE TALHERI RANGRAN.pdf"
+  },
+  {
+    "Name": "HWC ZAFFAR PUR STRUCTURE DRG. (1)",
+    "Category": "SHC",
+    "FileName": "SHC/strctural drawings/HWC ZAFFAR PUR STRUCTURE DRG. (1).pdf"
+  },
+  {
+    "Name": "JOINERY",
+    "Category": "SHC",
+    "FileName": "SHC/Layout and joinery/JOINERY.pdf"
+  },
+  {
+    "Name": "LAYOUT OPT-01",
+    "Category": "SHC",
+    "FileName": "SHC/Layout and joinery/LAYOUT OPT-01.pdf"
+  },
+  {
+    "Name": "LAYOUT OPT-2",
+    "Category": "SHC",
+    "FileName": "SHC/Layout and joinery/LAYOUT OPT-2.pdf"
+  },
+  {
+    "Name": "Plan",
+    "Category": "SHC",
+    "FileName": "SHC/strctural drawing in feet/Plan.pdf"
+  },
+  {
+    "Name": "Plinth beam layout",
+    "Category": "SHC",
+    "FileName": "SHC/strctural drawing in feet/Plinth beam layout.pdf"
+  },
+  {
+    "Name": "Revised land norms for SHC and HWC",
+    "Category": "SHC",
+    "FileName": "SHC/Layout and joinery/Revised land norms for SHC and HWC.pdf"
+  },
+  {
+    "Name": "SHC Layout Drawing jounery new 55.50 lacs",
+    "Category": "SHC",
+    "FileName": "SHC/Layout and joinery/SHC Layout Drawing jounery new 55.50 lacs.pdf"
+  },
+  {
+    "Name": "STANDARD HEALTH WELLNESS CENTRE",
+    "Category": "SHC",
+    "FileName": "SHC/strctural drawing in feet/STANDARD HEALTH WELLNESS CENTRE.pdf"
+  },
+  {
+    "Name": "Structure Drawing For Devsar",
+    "Category": "SHC",
+    "FileName": "SHC/strctural drawings/Structure Drawing For Devsar.pdf"
+  },
+  {
+    "Name": "column detail",
+    "Category": "SHC",
+    "FileName": "SHC/strctural drawing in feet/column detail.pdf"
+  },
+  {
+    "Name": "roof beam detail",
+    "Category": "SHC",
+    "FileName": "SHC/strctural drawing in feet/roof beam detail.pdf"
+  },
+  {
+    "Name": "B.wall",
+    "Category": "VKC or GRAM SACHIVALYA",
+    "FileName": "VKC or GRAM SACHIVALYA/B.wall.pdf"
+  },
+  {
+    "Name": "LIST OF DRAWINGS",
+    "Category": "VKC or GRAM SACHIVALYA",
+    "FileName": "VKC or GRAM SACHIVALYA/LIST OF DRAWINGS.pdf"
+  },
+  {
+    "Name": "Layout plan",
+    "Category": "VKC or GRAM SACHIVALYA",
+    "FileName": "VKC or GRAM SACHIVALYA/Layout plan.pdf"
+  },
+  {
+    "Name": "PB layout",
+    "Category": "VKC or GRAM SACHIVALYA",
+    "FileName": "VKC or GRAM SACHIVALYA/PB layout.pdf"
+  },
+  {
+    "Name": "PB library",
+    "Category": "VKC or GRAM SACHIVALYA",
+    "FileName": "VKC or GRAM SACHIVALYA/PB library.pdf"
+  },
+  {
+    "Name": "Roof salb",
+    "Category": "VKC or GRAM SACHIVALYA",
+    "FileName": "VKC or GRAM SACHIVALYA/Roof salb.pdf"
+  },
+  {
+    "Name": "care taker and csc room",
+    "Category": "VKC or GRAM SACHIVALYA",
+    "FileName": "VKC or GRAM SACHIVALYA/care taker and csc room.pdf"
+  },
+  {
+    "Name": "column foundation",
+    "Category": "VKC or GRAM SACHIVALYA",
+    "FileName": "VKC or GRAM SACHIVALYA/column foundation.pdf"
+  },
+  {
+    "Name": "column steel",
+    "Category": "VKC or GRAM SACHIVALYA",
+    "FileName": "VKC or GRAM SACHIVALYA/column steel.pdf"
+  },
+  {
+    "Name": "foundation and column library",
+    "Category": "VKC or GRAM SACHIVALYA",
+    "FileName": "VKC or GRAM SACHIVALYA/foundation and column library.pdf"
+  },
+  {
+    "Name": "foundation and toilet",
+    "Category": "VKC or GRAM SACHIVALYA",
+    "FileName": "VKC or GRAM SACHIVALYA/foundation and toilet.pdf"
+  },
+  {
+    "Name": "plan drwaing",
+    "Category": "VKC or GRAM SACHIVALYA",
+    "FileName": "VKC or GRAM SACHIVALYA/plan drwaing.pdf"
+  },
+  {
+    "Name": "roof beam",
+    "Category": "VKC or GRAM SACHIVALYA",
+    "FileName": "VKC or GRAM SACHIVALYA/roof beam.pdf"
+  },
+  {
+    "Name": "toilet block roof beam",
+    "Category": "VKC or GRAM SACHIVALYA",
+    "FileName": "VKC or GRAM SACHIVALYA/toilet block roof beam.pdf"
   }
 ]
