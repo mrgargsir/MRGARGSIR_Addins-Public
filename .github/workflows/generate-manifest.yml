@@ -5,7 +5,7 @@ on:
     paths:
       - 'MyTemplates/files/**'
       - 'MyDrawings/files/**'
-      - 'MyColorScheme/files/**'
+      - 'MyColorSchemes/files/**'
   workflow_dispatch: # 👉 Manual trigger option
 
 jobs:
@@ -130,8 +130,8 @@ jobs:
           import json
           
           # Configuration
-          FILES_DIR = "MyColorScheme/files"
-          MANIFEST_PATH = "MyColorScheme/Cmanifest.json"
+          FILES_DIR = "MyColorSchemes/files"
+          MANIFEST_PATH = "MyColorSchemes/CSmanifest.json"
           
           colorschemes = []
           
@@ -164,11 +164,11 @@ jobs:
           # Sort by Category, then by Name
           colorschemes.sort(key=lambda x: (x['Category'], x['Name']))
           
-          # Write to Cmanifest.json with pretty formatting
+          # Write to CSmanifest.json with pretty formatting
           with open(MANIFEST_PATH, 'w', encoding='utf-8') as f:
               json.dump(colorschemes, f, indent=2, ensure_ascii=False)
           
-          print(f"✅ Generated {len(colorschemes)} colorschemes in Cmanifest.json")
+          print(f"✅ Generated {len(colorschemes)} colorschemes in CSmanifest.json")
           for c in colorschemes:
               print(f"  - {c['Category']}: {c['Name']}")
           
@@ -181,7 +181,7 @@ jobs:
           git config user.email "actions@github.com"
           
           # Add manifest files
-          git add MyTemplates/manifest.json MyDrawings/Dmanifest.json MyColorScheme/Cmanifest.json
+          git add MyTemplates/manifest.json MyDrawings/Dmanifest.json MyColorSchemes/CSmanifest.json
           
           # Check if there are changes
           if git diff --staged --quiet; then
